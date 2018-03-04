@@ -156,8 +156,8 @@ def sapper():
     #os.system('cls')
     #os.system('clear')
     kontrola_konca_gry = height*width-mines #liczba pol, na ktorych nie ma min. Jesli tyle pol odkrytych, to wygrana
-    while(True):
-        print_board(tab_final, tabCzyOdkryte)
+    print_board(tab_final, tabCzyOdkryte)
+    while(True):        
         while (True):
             try:
                 x = int(input("Podaj wspolrzedna x do odkrycia: "))
